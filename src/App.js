@@ -5,7 +5,7 @@ import Apropos from "./Pages/A propos/APropos";
 import Header from "./Layout/Header/Navbar";
 import Footer from "./Layout/Footer/Footer";
 import NotFound from "./Pages/NotFound/notFound";
-// import Cards from "./Home/Cards/Cards";
+import Cards from "./Components/Cards/cards";
 
 function App() {
     return (
@@ -19,7 +19,7 @@ function App() {
                 {/* <Route path="/cards" element={<Cards />} /> */}
                 <Route path="/*" element={<NotFound />} />
             </Routes>
-
+            <Cards />
             <Footer />
         </div>
     );

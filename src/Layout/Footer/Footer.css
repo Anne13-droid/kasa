@@ -1,11 +1,11 @@
-.lmj-footer{
+.kas-footer{
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 209px;    
     background: #000000;
 }
-.lmj-footer-text{
+.kas-footer-text{
     position: absolute;
     left: 32.22%;
     right: 32.22%;
@@ -24,4 +24,10 @@
     color: #FFFFFF;
 }
 
-/* .lmj-logo{} */
+.kas-logo2{
+    position: absolute;   
+    right: 50%;
+    top: 29.67%;
+    bottom: 51.46%;
+     
+}

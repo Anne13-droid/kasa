@@ -1,0 +1,16 @@
+.kas-card{
+position: absolute;
+left: 68.55%;
+right: 4.03%;
+top: 53.8%;
+bottom: 5.19%;
+}
+
+.kas-cards{
+    position: absolute;
+width: 1240px;
+height: 829px;
+left: 100px;
+top: 437px;
+
+}

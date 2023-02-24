@@ -9,7 +9,9 @@ export default function Error() {
             <p className="kas-text-error">
                 Oups! La page que vous demandez n'existe pas
             </p>
-            <Link className="kas-return">Retourner sur la page d'accueil</Link>
+            <Link to="/" className="kas-return">
+                Retourner sur la page d'accueil
+            </Link>
         </div>
     );
 }

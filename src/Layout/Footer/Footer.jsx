@@ -1,14 +1,14 @@
 import React from "react";
 import "./Footer.css";
-// import Logo from "./images/logofoot.png";
+import Logo from "../images/logo2.png";
 
 export default function Footer() {
     return (
-        <div className="lmj-footer">
-            {/* <img src={Logo} alt="kasa" className="lmj-logo" /> */}
-            <h1 className="lmj-footer-text">
+        <footer className="kas-footer">
+            <img src={Logo} alt="kasa" className="kas-logo2" />
+            <h1 className="kas-footer-text">
                 © 2020 Kasa. All rights reserved
             </h1>
-        </div>
+        </footer>
     );
 }

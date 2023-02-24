@@ -61,6 +61,11 @@ color: #FF6060;
 .kas-navbar-link2:focus {
     border-bottom: 1px solid #FF6060;
 }
- /* .kas-logo{ 
-
-}  */
+ .kas-logo{ 
+    position: absolute;
+    left: 0%;
+    right: 83.04%;
+    top: 0%;
+    bottom: 0%;
+    
+} 
