@@ -1,16 +1,52 @@
-.kas-card{
-position: absolute;
-left: 68.55%;
-right: 4.03%;
-top: 53.8%;
-bottom: 5.19%;
+/* ------------------------cards.js------------------------------- */
+.kas-cards{
+   position: absolute;
+    width: 1240px;
+    height: 829px;
+    left: 60px;
+    top: 437px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.kas-cards{
-    position: absolute;
-width: 1240px;
-height: 829px;
-left: 100px;
-top: 437px;
 
+
+
+
+/* ------------------------card.js----------------------------- */
+
+
+
+
+.kas-thumb{
+    width: 340px;
+    height: 340px;
+    margin: 10px;
+    background: #FF6060;
+    border-radius: 10px;
+   
+}
+
+.kas-img{
+    object-fit: cover;
+    width: 340px;
+    height: 340px;
+    background: #FF6060;
+    border-radius: 10px;
+}
+
+.kas-title{
+   margin-top: -50px;
+   margin-left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    text-shadow: 2px 1px #000;
+    
+
+    color: #fff;
 }
