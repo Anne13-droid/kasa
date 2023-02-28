@@ -1,6 +1,6 @@
 /* ------------------------cards.js------------------------------- */
-.kas-cards{
-   position: absolute;
+.kas-cards {
+    position: absolute;
     width: 1240px;
     height: 829px;
     left: 60px;
@@ -11,42 +11,33 @@
     justify-content: space-evenly;
 }
 
-
-
-
-
 /* ------------------------card.js----------------------------- */
 
-
-
-
-.kas-thumb{
+.kas-thumb {
     width: 340px;
     height: 340px;
     margin: 10px;
-    background: #FF6060;
+    background: #ff6060;
     border-radius: 10px;
-   
+    text-decoration: none;
 }
 
-.kas-img{
+.kas-img {
     object-fit: cover;
     width: 340px;
     height: 340px;
-    background: #FF6060;
+    background: #ff6060;
     border-radius: 10px;
 }
 
-.kas-title{
-   margin-top: -50px;
-   margin-left: 20px;
-    font-family: 'Montserrat';
+.kas-title {
+    margin-top: -50px;
+    margin-left: 20px;
+    
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
-    text-shadow: 2px 1px #000;
-    
 
-    color: #fff;
+    color: #fefcfc;
 }

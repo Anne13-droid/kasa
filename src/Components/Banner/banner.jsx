@@ -1,8 +1,7 @@
 import React from "react";
-import "./Body.css";
-import image from "./images/img.png";
+import image from "../../assets/img.png";
 
-export default function Body() {
+function banner() {
     return (
         <div className="kas-body">
             <div className="kas-img-background">
@@ -12,3 +11,5 @@ export default function Body() {
         </div>
     );
 }
+
+export default banner;
