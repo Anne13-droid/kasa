@@ -1,11 +1,10 @@
 import React from "react";
 
-function carousel(props) {
-    const { pictures } = props;
+function carousel({ pictures }) {
     return (
         <div>
             <img
-                src={pictures}
+                src={pictures[0]}
                 alt="photos des l'appartement"
                 className="kas-phot-logement"
             />

@@ -20,3 +20,38 @@
     color: #FF6060;
 }
 
+.kas-text-error{
+    position: absolute;
+left: 21%;
+top: 600px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 142.6%;
+/* or 51px */
+
+display: flex;
+align-items: flex-end;
+
+color: #FF6060;
+    
+}
+
+.kas-return{
+    position: absolute;
+left: 37%;
+top: 800px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 142.6%;
+
+display: flex;
+align-items: flex-end;
+text-decoration-line: underline;
+
+color: #FF6060;
+}

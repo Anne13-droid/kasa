@@ -1,0 +1,30 @@
+.kas-img-background{
+    position: absolute;
+    width: 1240px;
+    height: 223px;
+    left: 100px;
+    top: 171px;
+ 
+}
+
+h2{
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    padding-left: 10px;
+   
+    background: #FF6060;
+    border-radius: 5px;
+}
+
+p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 142.6%;
+color: #FF6060;
+}

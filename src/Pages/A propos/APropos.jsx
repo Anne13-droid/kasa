@@ -1,9 +1,15 @@
 import React from "react";
+import image from "../../assets/imgabout.png";
+import About from "../../Components/About/About";
+import "../A propos/APropos.css";
 
 export default function Apropos() {
     return (
-        <div>
-            <h1>Nous concernant</h1>
+        <div className="kas-img-background">
+            <div>
+                <img src={image} alt="paysage" className="kas-img-banner" />
+            </div>
+            <About />
         </div>
     );
 }
