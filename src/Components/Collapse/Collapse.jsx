@@ -2,21 +2,26 @@ import React from "react";
 import { useState } from "react";
 import VectorOp from "../../assets/Vectoropen.png";
 import VectorClo from "../../assets/Vector.png";
-import About from "../About/About";
 
-export default function Collapse() {
-    const [isOpen, setIsOpen] = useState(true);
+export default function Collapse({ span }) {
+    // je déclare une variable d'état que j'appelle isOpen dont l'état est false
+    const [isOpen, setIsOpen] = useState(false);
+
     return isOpen ? (
         <div className="kas-ouvert">
-            <button className="kas-VectorOp" onClick={() => setIsOpen(true)}>
-                <img src={VectorOp} alt="ouvert" className="kas-ouvert" />
+            <button className="kas-VectorClo" onClick={() => setIsOpen(false)}>
+                <img src={VectorOp} alt="ouvert" className="kas-open" />
             </button>
-            <About.p />
+            {isOpen && (
+                <div className="paragraphe">
+                    <p className="kas-paragraphe">{span}</p>
+                </div>
+            )}
         </div>
     ) : (
         <div className="kas-fermé">
-            <button className="kas-VectorClo" onClick={() => setIsOpen(false)}>
-                <img src={VectorClo} alt="ouvert" className="kas-ouvert" />
+            <button className="kas-VectorOp" onClick={() => setIsOpen(true)}>
+                <img src={VectorClo} alt="fermé" className="kas-close" />
             </button>
         </div>
     );

@@ -22,14 +22,14 @@
 .kas-img-banner{
     object-fit: cover;
     border-radius: 25px;
-    width: 1240px;
+    width: 1440px;
     height: 223px;
     filter: brightness(50%);
 }
 
  .kas-img-background{
     position: absolute;
-    width: 1240px;
+    width: 1440px;
     height: 223px;
     left: 100px;
     top: 171px;

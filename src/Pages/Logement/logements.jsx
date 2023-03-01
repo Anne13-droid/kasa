@@ -2,10 +2,8 @@ import React from "react";
 import "./logements.css";
 import { useParams } from "react-router-dom";
 import data from "../../datas/logementsList.json";
-// import NotFound from "../NotFound/notFound";
 import Carousel from "../../Components/Pictures/carousel";
-// import Description from "../../Components/Description/description";
-// import Equipments from "../../Components/Equipments/equipments";
+import Collapse from "../../Components/Collapse/Collapse";
 
 export default function Logement() {
     const { logementId } = useParams();
@@ -36,11 +34,11 @@ export default function Logement() {
             <div> {rating}</div>
             <div>
                 <h2>Descritpion </h2>
-                <ul>{description} </ul>
+                <Collapse span={description} className="kas-description" />
             </div>
             <div>
                 <h2>Equipements</h2>
-                <ul>{equipments} </ul>
+                <Collapse span={equipments} className="kas-equipement" />
             </div>
         </div>
     );

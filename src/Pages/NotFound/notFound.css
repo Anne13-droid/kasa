@@ -1,9 +1,7 @@
 
 .kas-error{
-    position: absolute;
-    width: 597px;
-    height: 263px;
-    left: 432px;
+    position: absolute;  
+    left: 500px;
     top: 100px;
     
     font-family: 'Montserrat';
@@ -22,36 +20,33 @@
 
 .kas-text-error{
     position: absolute;
-left: 21%;
-top: 600px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 142.6%;
-/* or 51px */
+    left: 25%;
+    top: 600px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
 
-display: flex;
-align-items: flex-end;
+    display: flex;
+    align-items: flex-end;
 
-color: #FF6060;
-    
+    color: #FF6060;    
 }
 
 .kas-return{
     position: absolute;
-left: 37%;
-top: 800px;
+    left: 40%;
+    top: 800px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 142.6%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
 
-display: flex;
-align-items: flex-end;
-text-decoration-line: underline;
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
 
-color: #FF6060;
+    color: #FF6060;
 }

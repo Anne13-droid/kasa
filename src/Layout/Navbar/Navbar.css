@@ -1,9 +1,11 @@
 .kas-header{
     position: absolute;
-    width: 1240px;
+    width: 1440px;
     height: 68px;
     left: 100px;
     top: 40px;
+    display: flex;
+    justify-content: center;
 
 }
 
