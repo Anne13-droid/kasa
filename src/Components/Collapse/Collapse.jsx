@@ -10,7 +10,7 @@ export default function Collapse({ span }) {
     return isOpen ? (
         <div className="kas-ouvert">
             <button className="kas-VectorClo" onClick={() => setIsOpen(false)}>
-                <img src={VectorOp} alt="ouvert" className="kas-open" />
+                <img src={VectorClo} alt="ouvert" className="kas-open" />
             </button>
             {isOpen && (
                 <div className="paragraphe">
@@ -21,7 +21,7 @@ export default function Collapse({ span }) {
     ) : (
         <div className="kas-fermé">
             <button className="kas-VectorOp" onClick={() => setIsOpen(true)}>
-                <img src={VectorClo} alt="fermé" className="kas-close" />
+                <img src={VectorOp} alt="fermé" className="kas-close" />
             </button>
         </div>
     );

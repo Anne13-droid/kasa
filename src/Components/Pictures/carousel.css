@@ -1,0 +1,41 @@
+.carousel{
+    position: absolute;
+    width: 1240px;
+    height: 415px;
+    left: 100px;
+    top: 150px;
+}
+
+.kas-phot-logement{
+    width: 1240px;
+    height: 415px; 
+    object-fit: cover;
+}
+
+
+
+#g{
+    position: absolute;
+    top: 170px;
+    background-color: transparent;
+    border: none;
+    opacity: 0.4;
+}
+#g:hover{
+    opacity: 1;
+    
+}
+
+#d{
+    position: absolute;
+    top: 170px;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    opacity: 0.4;
+   
+}
+#d:hover{
+    opacity: 1;
+   
+}

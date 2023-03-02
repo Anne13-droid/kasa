@@ -24,21 +24,28 @@ export default function Logement() {
     return (
         <div className="kas-logement">
             <Carousel pictures={pictures} />
-            <h1>{title}</h1>
-            <p>{location} </p>
-            <ul>{tags}</ul>
-            <div className="kas-host">
-                {host.name}
-                <img src={host.picture} alt="avatar" className="kas-avatar" />
-            </div>
-            <div> {rating}</div>
-            <div>
-                <h2>Descritpion </h2>
-                <Collapse span={description} className="kas-description" />
-            </div>
-            <div>
-                <h2>Equipements</h2>
-                <Collapse span={equipments} className="kas-equipement" />
+
+            <div className="description">
+                <h1>{title}</h1>
+                <p>{location} </p>
+                <ul>{tags}</ul>
+                <div className="kas-host">
+                    {host.name}
+                    <img
+                        src={host.picture}
+                        alt="avatar"
+                        className="kas-avatar"
+                    />
+                </div>
+                <div> {rating}</div>
+                <div>
+                    <h2>Descritpion </h2>
+                    <Collapse span={description} className="kas-description" />
+                </div>
+                <div>
+                    <h2>Equipements</h2>
+                    <Collapse span={equipments} className="kas-equipement" />
+                </div>
             </div>
         </div>
     );

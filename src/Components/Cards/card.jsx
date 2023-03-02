@@ -7,7 +7,11 @@ export default function card({ id, cover, title }) {
 
     return (
         <Link to={"logements/" + id} className="kas-thumb">
-            <img src={cover} alt="" className="kas-img" />
+            <img
+                src={cover}
+                alt="interieur du logement  {title}"
+                className="kas-img"
+            />
             <h2 className="kas-title">{title}</h2>
         </Link>
     );
