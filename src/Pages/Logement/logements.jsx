@@ -2,13 +2,20 @@ import React from "react";
 import "./logements.css";
 import { useParams } from "react-router-dom";
 import data from "../../datas/logementsList.json";
-import Carousel from "../../Components/Pictures/carousel";
 import Collapse from "../../Components/Collapse/Collapse";
+import SlideShow from "../../Components/Pictures/SlideShow";
+import NotFound from "../../Pages/NotFound/notFound";
+import Rating from "../../Components/Rating/Rating";
 
 export default function Logement() {
     const { logementId } = useParams();
 
     const appart = data.find((appart) => appart.id === logementId);
+   
+    if(!appart){
+        return <NotFound/>
+    }   
+  
     const {
         pictures,
         title,
@@ -19,12 +26,10 @@ export default function Logement() {
         description,
         equipments,
     } = appart || {};
-    console.log(appart);
 
     return (
         <div className="kas-logement">
-            <Carousel pictures={pictures} />
-
+            <SlideShow pictures={pictures} />
             <div className="description">
                 <h1>{title}</h1>
                 <p>{location} </p>
@@ -38,6 +43,7 @@ export default function Logement() {
                     />
                 </div>
                 <div> {rating}</div>
+                <Rating/>
                 <div>
                     <h2>Descritpion </h2>
                     <Collapse span={description} className="kas-description" />

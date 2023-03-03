@@ -4,16 +4,14 @@ import ChevronG from "../../assets/chevronG.png";
 import ChevronD from "../../assets/chevronD.png";
 import "./carousel.css";
 
-function Carousel(props) {
+function Carousel({ pictures }) {
     // const [pictures, setPictures] = useState(props.pictures);
     // const totalPictures = pictures.lenght;
 
-    const [currentPictureIndex, setCurrentPictureIndex] = useState(
-        props.pictures
-    );
+    const [currentPictureIndex, setCurrentPictureIndex] = useState(pictures);
 
     const previousSlide = () => {
-        const lastIndex = props.pictures.length - 1;
+        const lastIndex = pictures.length - 1;
         const shouldResetIndex = currentPictureIndex === 0;
         const index = shouldResetIndex ? lastIndex : currentPictureIndex;
 
@@ -21,7 +19,7 @@ function Carousel(props) {
     };
 
     const nextSlide = () => {
-        const lastIndex = props.pictures.length - 1;
+        const lastIndex = pictures.length - 1;
         const shouldResetIndex = currentPictureIndex === lastIndex;
         const index = shouldResetIndex ? 0 : currentPictureIndex;
 
@@ -31,14 +29,15 @@ function Carousel(props) {
     return (
         <div className="carousel">
             <div className="carousel-image-container">
-                {props.pictures.map((picture, index) => (
+                {pictures.map((pictures, index) => (
                     <img
                         key={index}
-                        src={props.pictures}
+                        src={pictures}
                         alt={`Carousel slide ${index}`}
                         className={`carousel__image ${
                             currentPictureIndex === index ? "active" : ""
                         }`}
+                        id="slide"
                     />
                 ))}
             </div>
@@ -46,14 +45,14 @@ function Carousel(props) {
                 <img
                     src={ChevronG}
                     alt="flêche gauche"
-                    className="kas-flêche-g"
+                    className="kas-flêche"
                 />
             </button>
             <button onClick={nextSlide} className="chevron" id="d">
                 <img
                     src={ChevronD}
                     alt="flêche droite"
-                    className="kas-flêche-d"
+                    className="kas-flêche"
                 />
             </button>
         </div>
