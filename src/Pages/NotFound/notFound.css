@@ -1,9 +1,5 @@
 
-.kas-error{
-    position: absolute;  
-    left: 500px;
-    top: 100px;
-    
+.kas-error{ 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -19,9 +15,7 @@
 }
 
 .kas-text-error{
-    position: absolute;
-    left: 25%;
-    top: 600px;
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -35,10 +29,6 @@
 }
 
 .kas-return{
-    position: absolute;
-    left: 40%;
-    top: 800px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;

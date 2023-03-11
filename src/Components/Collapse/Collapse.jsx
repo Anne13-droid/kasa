@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import VectorOp from "../../assets/Vectoropen.png";
 import VectorClo from "../../assets/Vector.png";
+import "../../Pages/A propos/APropos.css";
 
 export default function Collapse({ span }) {
     // je déclare une variable d'état que j'appelle isOpen dont l'état est false

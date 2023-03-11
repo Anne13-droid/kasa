@@ -1,8 +1,7 @@
-*{
-  box-sizing: border-box;
-  font-family: Montserrat,sans-serif;
-  max-width: 1440px;
-  max-height: 2000px;
+
+  
+#root{
+ 
+ display: block;
 
 }
-  

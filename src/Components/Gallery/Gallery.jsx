@@ -11,7 +11,7 @@ function Cards() {
     }, []);
     return (
         <div>
-            <ul className="kas-cards">
+            <div className="kas-gallery">
                 {cardsData.map((item) => (
                     <Card
                         key={item.id}
@@ -20,7 +20,7 @@ function Cards() {
                         cover={item.cover}
                     />
                 ))}
-            </ul>
+            </div>
         </div>
     );
 }

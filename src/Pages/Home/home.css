@@ -2,36 +2,27 @@
 
 .kas-titre{
     position: absolute;
-    left: 30%;  
-    top: 210px; 
-    
-    font-family: 'Montserrat';
+    top: 17%;
+    left: 30%;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
     line-height: 142.6%;
-    /* or 68px */
     
-    display: flex;
-    align-items: flex-end;
-
     color: #ffffff;
 
 }
 
 .kas-img-banner{
+    position: relative;
     object-fit: cover;
-    border-radius: 25px;
-    width: 1440px;
+    border-radius: 25px;   
     height: 223px;
     filter: brightness(50%);
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
- .kas-img-background{
-    position: absolute;
-    width: 1440px;
-    height: 223px;
-    left: 100px;
-    top: 171px;
  
-} 

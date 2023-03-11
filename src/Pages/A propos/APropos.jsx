@@ -5,9 +5,9 @@ import "../A propos/APropos.css";
 
 export default function Apropos() {
     return (
-        <div className="kas-img-background">
-            <div>
-                <img src={image} alt="paysage" className="kas-img-banner" />
+        <div className="kas-apropos">
+            <img src={image} alt="paysage" className="kas-img-banner2" />
+            <div className="kas-titre2">
                 <h2>Fiablilité</h2>
                 <Collapse
                     span=" Les annonces postées sur Kasa garantissent une fiabilité
@@ -15,7 +15,8 @@ export default function Apropos() {
                         toutes les informations sont régulièrement vérifiées par
                         nos équipes."
                 />
-
+            </div>
+            <div className="kas-titre2">
                 <h2>Respect</h2>
                 <Collapse
                     span="La bienveillance fait partie des valeurs fondatrices de
@@ -23,14 +24,16 @@ export default function Apropos() {
                         perturbation du voisinage entraînera une exclusion de
                         notre plateforme."
                 />
-
+            </div>
+            <div className="kas-titre2">
                 <h2>Service</h2>
                 <Collapse
                     span=" Nos équipes se tiennent à votre disposition pour vous
                         fournir une expérience parfaite. N'hésitez pas à nous
                         contacter si vous avez la moindre question."
                 />
-
+            </div>
+            <div className="kas-titre2">
                 <h2>Sécurité</h2>
                 <Collapse
                     span="La sécurité est la priorité de Kasa. Aussi bien pour nos

@@ -1,30 +1,24 @@
 .kas-header{
-    position: absolute;
-    width: 1440px;
-    height: 68px;
-    left: 100px;
-    top: 40px;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 68px;
+    padding: 20px;
+   
+}
 
+.kas-logo{
+    width: 150px;
+    height: 55px;
 }
 
 .kas-navbar{    
-    position: absolute;
-    left: 100px;
-    right: 0%;
-    top: 25%;
-    bottom: 25%;
     display: flex;
-    flex-direction: row;
-    
+    padding-right: 20px;
 }
 
 .kas-navbar-link{    
-    position: absolute;   
-    right: 13.95%;
-    top: 25%;
-    bottom: 25%;
 
     font-style: normal;
     font-weight: 500;
@@ -32,17 +26,13 @@
     line-height: 142.6%;
     display: flex;
     align-items: flex-end;
-    text-align: right;
     text-decoration-line: none;    
     color: #FF6060; 
+    margin-right: 20px;
 }
 
 
 .kas-navbar-link2{
-position: absolute;
-right: 0%;
-top: 25%;
-bottom: 25%;
 
 font-style: normal;
 font-weight: 500;
@@ -50,9 +40,10 @@ font-size: 24px;
 line-height: 142.6%;
 display: flex;
 align-items: flex-end;
-text-align: right;
 text-decoration-line: none;  
 color: #FF6060;
+
+margin-left: 20px;
 }
 
 
@@ -61,11 +52,3 @@ color: #FF6060;
     text-decoration: underline;
 }
 
- .kas-logo{ 
-    position: absolute;
-    left: 0%;
-    right: 83.04%;
-    top: 0%;
-    bottom: 0%;
-    
-} 

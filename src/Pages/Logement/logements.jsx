@@ -1,11 +1,11 @@
 import React from "react";
-import "./logements.css";
 import { useParams } from "react-router-dom";
 import data from "../../datas/logementsList.json";
 import Collapse from "../../Components/Collapse/Collapse";
 import SlideShow from "../../Components/Pictures/SlideShow";
 import NotFound from "../../Pages/NotFound/notFound";
 import Rating from "../../Components/Rating/Rating";
+import "./logement.css"
 
 export default function Logement() {
     const { logementId } = useParams();
@@ -44,11 +44,11 @@ export default function Logement() {
                 </div>
                 <div> {rating}</div>
                 <Rating/>
-                <div>
+                <div className="kas-title">
                     <h2>Descritpion </h2>
                     <Collapse span={description} className="kas-description" />
                 </div>
-                <div>
+                <div className="kas-title">
                     <h2>Equipements</h2>
                     <Collapse span={equipments} className="kas-equipement" />
                 </div>
