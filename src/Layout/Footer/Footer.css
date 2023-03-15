@@ -8,9 +8,7 @@
 }
 .kas-footer-text{
     position: absolute;
-    left: 37.5%;
-    right: 35%;    
-    top: 64.11%;
+    top: 50%;
 
     font-style: normal;
     font-weight: 500;
@@ -19,13 +17,13 @@
     
     display: flex;
     align-items: flex-end;    
-    
+    text-align: center;
     color: #FFFFFF;
 }
 
 .kas-logo2{
     position: absolute;     
-    top: 30%;
+    top: 40%;
 
      
 }

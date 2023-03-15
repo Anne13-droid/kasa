@@ -21,8 +21,8 @@ function SlideShow({ pictures }) {
                     alt="pics{indexImage + 1}"
                     className="carousel-image-container"
                 />
-                <div>
-                    {indexImage + 1}/{pictures.length}{" "}
+                <div className="kas-numero">
+                    {indexImage + 1}/{pictures.length}
                 </div>
 
                 <button onClick={incrementImage} id="d">

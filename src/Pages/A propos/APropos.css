@@ -4,7 +4,8 @@
 }
 
 
-h2{
+.kas-h2-ap{
+    width: 800px;
     color: white;
     font-style: normal;
     font-weight: 500;
@@ -19,14 +20,15 @@ h2{
 
 .kas-titre2{
     position: relative;
-    width: 1023px;
-    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+
 }
 
-button{
+.kas-button-app{
     position: absolute;
-    right: 10px;
-    top: 12.5px;
+    right: 10%;
+    top: 30px;
     background-color: transparent;
     border: transparent;
 }

@@ -2,13 +2,12 @@
 
 .kas-titre{
     position: absolute;
-    top: 17%;
-    left: 30%;
+    top: 170px;
+    left: 20%;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
     line-height: 142.6%;
-    
     color: #ffffff;
 
 }
