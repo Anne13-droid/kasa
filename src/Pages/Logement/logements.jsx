@@ -48,7 +48,6 @@ export default function Logement() {
                             />
                         </div>
                         <div>
-                           
                             <Rating rate={rating} />
                         </div>
                     </div>

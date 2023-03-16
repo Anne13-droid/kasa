@@ -7,6 +7,7 @@ export default function Apropos() {
     return (
         <div className="kas-apropos">
             <img src={image} alt="paysage" className="kas-img-banner2" />
+            <div className="kas-container-ap">
             <div className="kas-titre2">
                 <h2 className="kas-h2-ap">Fiablilité</h2>
                 <Collapse
@@ -48,6 +49,7 @@ export default function Apropos() {
                         ateliers sur la sécurité domestique pour nos hôtes."
                         className="kas-paragraphe"
                 />
+            </div>
             </div>
         </div>
     );

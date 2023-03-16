@@ -19,15 +19,22 @@
 }
 
 .kas-titre2{
+   
     position: relative;
     display: flex;
     justify-content: center;
-
 }
 
-.kas-button-app{
+.kas-container-ap{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kas-app{
     position: absolute;
-    right: 10%;
+    right: 50%;
     top: 30px;
     background-color: transparent;
     border: transparent;

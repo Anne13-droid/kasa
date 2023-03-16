@@ -10,7 +10,7 @@ export default function Collapse({ span }) {
 
     return isOpen ? (
         <div className="kas-ouvert">
-            <button className="kas-button-app" id="log" onClick={() => setIsOpen(false)}>
+            <button className="kas-button kas-app"  onClick={() => setIsOpen(false)}>
                 <img src={VectorClo} alt="ouvert" className="kas-open" />
             </button>
             {isOpen && (
@@ -21,7 +21,7 @@ export default function Collapse({ span }) {
         </div>
     ) : (
         <div className="kas-fermé">
-            <button className="kas-button-app" id="log" onClick={() => setIsOpen(true)}>
+            <button className="kas-button kas-app" onClick={() => setIsOpen(true)}>
                 <img src={VectorOp} alt="fermé" className="kas-close" />
             </button>
         </div>

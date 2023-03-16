@@ -78,7 +78,14 @@ p{
     color: #FF6060;
 }
 
-#log{
+.kas-equipement{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.kas-button{
     position: absolute;
     right: 5%;
     top: 20px;

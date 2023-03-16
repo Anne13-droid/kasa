@@ -1,9 +1,12 @@
-
+.kas-img-background{
+    position: relative;
+}
 
 .kas-titre{
     position: absolute;
-    top: 170px;
-    left: 20%;
+    top: 100px;
+    left: 30%;
+    margin: 0;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -13,7 +16,6 @@
 }
 
 .kas-img-banner{
-    position: relative;
     object-fit: cover;
     border-radius: 25px;   
     height: 223px;
