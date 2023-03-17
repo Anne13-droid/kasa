@@ -57,7 +57,7 @@ margin: 30px;
 
 .kas-title2{
     position: relative;
-    width: 480px;
+    max-width: 480px;
     padding: 5px;
 }
 
@@ -91,4 +91,32 @@ margin: 30px;
     top: 20px;
     background-color: transparent;
     border: transparent;
+}
+
+@media screen and (max-width:768px) {
+    .description{
+        display: flex;
+        flex-direction: column;
+    }
+.kas-avatar{
+    width: 50px;
+}
+
+
+    .kas-host{
+        justify-content: flex-end;
+    }
+
+    .kas-rating{
+        justify-content: flex-start;
+    }
+    .kas-h2-container{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .kas-etoile{
+        width: 20px;
+    }
+
 }

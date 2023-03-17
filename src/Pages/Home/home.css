@@ -26,4 +26,10 @@
 
 }
 
- 
+@media screen  and (max-width: 768px){
+    .kas-titre{
+        width: 217px;
+        left: 10%;
+        font-size: 24px;
+    }
+}

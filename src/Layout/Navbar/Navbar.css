@@ -9,13 +9,14 @@
 }
 
 .kas-logo{
-    width: 150px;
+   width: 150px;
     height: 55px;
 }
 
 .kas-navbar{    
     display: flex;
     padding-right: 20px;
+    font-size: 24px;
 }
 
 .kas-navbar-link{    
@@ -52,3 +53,9 @@ margin-left: 20px;
     text-decoration: underline;
 }
 
+@media screen and (max-width: 768px) {
+    .kas-navbar{
+        font-size:12px;
+    }
+
+}

@@ -11,7 +11,7 @@ function Rating(rate) {
                     <img
                         src={EtoileRouge}
                         alt="nombre d'étoiles"
-                        className="kas-etoile-rouge"
+                        className="kas-etoile"
                         key={key}
                     />
                 ) : (

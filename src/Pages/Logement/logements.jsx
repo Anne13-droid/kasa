@@ -47,7 +47,7 @@ export default function Logement() {
                                 className="kas-avatar"
                             />
                         </div>
-                        <div>
+                        <div className="kas-rating">
                             <Rating rate={rating} />
                         </div>
                     </div>
