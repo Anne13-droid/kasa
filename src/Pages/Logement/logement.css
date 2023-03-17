@@ -70,8 +70,7 @@ margin: 30px;
 }
 
 
-p{
-
+.kas-par{
     font-weight: 400;
     font-size: 18px;
     line-height: 142.6%;
@@ -81,6 +80,7 @@ p{
 .kas-equipement{
     display: flex;
     flex-direction: column;
+    font-size: 18px;
 }
 
 

@@ -1,11 +1,11 @@
 .kas-apropos{
     margin-bottom: 40px;
     margin-top: 40px;
+  
 }
 
 
 .kas-h2-ap{
-    width: 800px;
     color: white;
     font-style: normal;
     font-weight: 500;
@@ -19,17 +19,11 @@
 }
 
 .kas-titre2{
-   
     position: relative;
-    display: flex;
-    justify-content: center;
 }
 
 .kas-container-ap{
-    width: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    max-width: 800px;
 }
 
 .kas-app{
@@ -40,7 +34,7 @@
     border: transparent;
 }
 
-p{
+.kas-paragraphe{
     padding: 5px;
     font-style: normal;
     font-weight: 400;
