@@ -36,9 +36,9 @@ h1{
     align-items: center;
     color: #FF6060;
     font-weight: 500;
-font-size: 18px;
-line-height: 142.6%;
-margin: 30px;
+    font-size: 18px;
+    line-height: 142.6%;
+    margin: 30px;
 }
 
 
@@ -55,9 +55,10 @@ margin: 30px;
     margin: 0;
 }
 
+
 .kas-title2{
     position: relative;
-    max-width: 480px;
+    width: 480px;
     padding: 5px;
 }
 
@@ -77,13 +78,6 @@ margin: 30px;
     color: #FF6060;
 }
 
-.kas-equipement{
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-}
-
-
 
 .kas-button{
     position: absolute;
@@ -93,14 +87,19 @@ margin: 30px;
     border: transparent;
 }
 
+
+/* ---------------------------------------------------------------------------- */
+
 @media screen and (max-width:768px) {
+
     .description{
         display: flex;
         flex-direction: column;
     }
-.kas-avatar{
-    width: 50px;
-}
+
+    .kas-avatar{
+        width: 50px;
+    }
 
 
     .kas-host{

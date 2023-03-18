@@ -5,6 +5,7 @@ import Collapse from "../../Components/Collapse/Collapse";
 import SlideShow from "../../Components/Pictures/SlideShow";
 import NotFound from "../../Pages/NotFound/notFound";
 import Rating from "../../Components/Rating/Rating";
+
 import "./logement.css";
 
 export default function Logement() {

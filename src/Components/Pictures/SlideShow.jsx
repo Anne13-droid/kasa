@@ -10,7 +10,7 @@ function SlideShow({ pictures }) {
         setIndexImage((indexImage + 1) % pictures.length);
     };
     const decrementImage = () => {
-        setIndexImage((indexImage - 1) % pictures.length);
+        setIndexImage((indexImage - 1 + pictures.length) % pictures.length);
     };
 
     return (
@@ -18,7 +18,7 @@ function SlideShow({ pictures }) {
             <div>
                 <img
                     src={pictures[indexImage]}
-                    alt="pics{indexImage + 1}"
+                    alt="images du logment"
                     className="carousel-image-container"
                 />
                 <div className="kas-numero">

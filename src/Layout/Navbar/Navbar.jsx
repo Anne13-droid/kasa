@@ -8,10 +8,24 @@ export default function Navbar() {
         <header className="kas-header">
             <img src={logo} alt="logo-kasa" className="kas-logo" />
             <nav className="kas-navbar">
-                <NavLink to="/" className={({isActive})=>(isActive ? "kas-navbar-link navbar-active" : "kas-navbar-link")} >
+                <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                        isActive
+                            ? "kas-navbar-link navbar-active"
+                            : "kas-navbar-link"
+                    }
+                >
                     Accueil
                 </NavLink>
-                <NavLink to="/a_propos" className={({isActive})=>(isActive ? "kas-navbar-link2 navbar-active" : "kas-navbar-link2")}>
+                <NavLink
+                    to="/apropos"
+                    className={({ isActive }) =>
+                        isActive
+                            ? "kas-navbar-link2 navbar-active"
+                            : "kas-navbar-link2"
+                    }
+                >
                     A Propos
                 </NavLink>
             </nav>

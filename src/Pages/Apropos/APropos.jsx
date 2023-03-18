@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../../assets/imgabout.png";
 import Collapse from "../../Components/Collapse/Collapse";
-import "../A propos/APropos.css";
+import "../Apropos/APropos.css";
 
 export default function Apropos() {
     return (
