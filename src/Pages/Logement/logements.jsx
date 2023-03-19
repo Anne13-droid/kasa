@@ -5,8 +5,9 @@ import Collapse from "../../Components/Collapse/Collapse";
 import SlideShow from "../../Components/Pictures/SlideShow";
 import NotFound from "../../Pages/NotFound/notFound";
 import Rating from "../../Components/Rating/Rating";
-
 import "./logement.css";
+import Tags from "../../Components/Tags/Tags";
+
 
 export default function Logement() {
     const { logementId } = useParams();
@@ -37,7 +38,9 @@ export default function Logement() {
                     <div className="kas-location">
                         <h1>{title}</h1>
                         <p>{location} </p>
-                        <span className="kas-span">{tags}</span>
+                        <ul>
+                            <Tags tags={tags} />
+                        </ul>
                     </div>
                     <div className="kas-host-rating">
                         <div className="kas-host">
@@ -64,7 +67,11 @@ export default function Logement() {
                     <div className="kas-title2">
                         <h2 className="kas-h2">Equipements</h2>
                         <Collapse
-                            span={equipments}
+                            span={
+                                equipments.map((equip, index)=>(
+                                    <li key={index}>{equip}</li>
+                                ))
+                            }
                             className="kas-equipement"
                         />
                     </div>
