@@ -41,6 +41,26 @@ h1{
     margin: 30px;
 }
 
+.kas-tags {
+    display: flex;
+    flex-direction: row;
+    color: white;
+ 
+   
+}
+
+.kas-tags li{
+    background-color: #FF6060;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
 
 .kas-h2{   
     color: white;

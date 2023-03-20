@@ -14,8 +14,8 @@
 
 .kas-thumb {
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 340px;
+    height: 340px;
     margin: 10px;
     border-radius: 10px;
     text-decoration: none;
@@ -27,13 +27,14 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 10px;
 }
 
 .kas-img {
     object-fit: cover;
-    width: 400px;
-    height: 400px;
+    width: 340px;
+    height: 340px;
     border-radius: 10px;
 }
 
@@ -47,4 +48,17 @@
     
 
     color: #fefcfc;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .kas-img{   
+       margin: 10px;
+    }
+
+    .kas-thumb{   
+        margin: 10px;
+    }
+    
 }

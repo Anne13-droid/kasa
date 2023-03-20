@@ -1,15 +1,13 @@
-import React from 'react'
+import React from "react";
 
-function Tags({tags}) {
-  return (
-    <>
-    {
-        tags.map((tag, index)=>(
-            <li key={index}>{tag}</li>
-        ))
-    }
-    </>
-  )
+function Tags({ tags }) {
+    return (
+        <div className="kas-tags">
+            {tags.map((tag, index) => (
+                <li key={index}>{tag}</li>
+            ))}
+        </div>
+    );
 }
 
-export default Tags
+export default Tags;
