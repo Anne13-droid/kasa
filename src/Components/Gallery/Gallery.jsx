@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import data from "../../datas/logementsList.json";
-import Card from "../Cards/card";
+import Card from "../Cards/Card";
 import "../Cards/card.css";
 
 function Cards() {

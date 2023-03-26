@@ -3,11 +3,10 @@ import { useParams } from "react-router-dom";
 import data from "../../datas/logementsList.json";
 import Collapse from "../../Components/Collapse/Collapse";
 import SlideShow from "../../Components/Pictures/SlideShow";
-import NotFound from "../../Pages/NotFound/notFound";
+import NotFound from "../NotFound/notFound";
 import Rating from "../../Components/Rating/Rating";
 import "./logement.css";
 import Tags from "../../Components/Tags/Tags";
-
 
 export default function Logement() {
     const { logementId } = useParams();
@@ -67,11 +66,7 @@ export default function Logement() {
                     <div className="kas-title2">
                         <h2 className="kas-h2">Equipements</h2>
                         <Collapse
-                            span={
-                                equipments.map((equip, index)=>(
-                                    <li key={index}>{equip}</li>
-                                ))
-                            }
+                            span={equipments}
                             className="kas-equipement"
                         />
                     </div>

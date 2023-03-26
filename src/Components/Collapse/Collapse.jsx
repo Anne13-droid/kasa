@@ -14,7 +14,17 @@ export default function Collapse({ span }) {
             </button>
             {isOpen && (
                 <div className="paragraphe">
-                    <p className="kas-par">{span}</p>
+                    {Array.isArray(span) ? (
+                        <ul>
+                        {span.map((equip, index) => (
+                            <li className="kas-par" key={index}>
+                                {equip}
+                            </li>
+                        ))}
+                        </ul>
+                    ) : (
+                        <p className="kas-par">{span}</p>
+                    )}
                 </div>
             )}
         </div>

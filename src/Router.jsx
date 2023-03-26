@@ -1,7 +1,7 @@
 import "./style.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/home";
-import Apropos from "./Pages/Apropos/APropos";
+import Apropos from "./Pages/Apropos/apropos";
 import NotFound from "./Pages/NotFound/notFound";
 import Logements from "./Pages/Logement/logements";
 import Layout from "./Layout/Layout";
