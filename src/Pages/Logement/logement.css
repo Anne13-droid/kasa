@@ -1,5 +1,4 @@
 h1{
-    margin-top: 50px;
     margin-bottom: 0;
     font-weight: 500;
     font-size: 36px;
@@ -7,9 +6,7 @@ h1{
 }
 
 .kas-location{
-    font-weight: 500;
     font-size: 18px;
-    margin: 0;
 }
 
 .kas-span{
@@ -45,8 +42,6 @@ h1{
     display: flex;
     flex-direction: row;
     color: white;
- 
-   
 }
 
 .kas-tags li{
@@ -54,7 +49,13 @@ h1{
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    margin: 10px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+
+ul{
+    padding-inline-start: 0;
 }
 
 li{
@@ -124,18 +125,29 @@ li{
 
     .kas-host{
         justify-content: flex-end;
+        margin: 0;
     }
 
-    .kas-rating{
-        justify-content: flex-start;
-    }
+  .kas-host-rating{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
     .kas-h2-container{
         flex-direction: column;
-        padding: 10px;
+        width: 100%;
     }
 
     .kas-etoile{
         width: 20px;
     }
-
+    .kas-title2{ 
+        width: auto;
+    }
+    .kas-tags{
+        font-size: 12px;
+        /* justify-content: space-evenly; */
+    }
 }

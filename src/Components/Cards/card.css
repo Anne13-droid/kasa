@@ -53,12 +53,11 @@
 
 @media screen and (max-width: 768px) {
 
-    .kas-img{   
-       margin: 10px;
+    .kas-thumb{
+        height: 255px;
+    }
+    .kas-img{
+        height: 255px;
     }
 
-    .kas-thumb{   
-        margin: 10px;
-    }
-    
 }

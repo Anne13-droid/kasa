@@ -1,14 +1,11 @@
-
+.kas-page-error{
+    margin-bottom: 20px;
+}
 .kas-error{ 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 288px;
-    line-height: 142.6%;
-    /* or 411px */
-    
-    display: flex;
-    align-items: center;
     text-align: center;
     
     color: #FF6060;
@@ -20,23 +17,36 @@
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
-    line-height: 142.6%;
-
-    display: flex;
-    align-items: flex-end;
-
+    text-align: center;
     color: #FF6060;    
 }
 
 .kas-return{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
     font-size: 18px;
-
-    display: flex;
-    align-items: flex-end;
-    text-decoration-line: underline;
-
+   display: flex;
+   justify-content: center;
     color: #FF6060;
+}
+
+@media screen and (max-width: 768px) {
+    .kas-error{
+        font-size: 96px;
+        justify-content: center;
+    }
+
+    .kas-text-error{
+        font-size: 18px;
+    }
+
+    .kas-return{
+        font-size: 14px;
+        justify-content: center;
+        margin-top: 80px;
+        padding: 10px;  
+    }
+
+    .kas-page-error{
+        height: 330px;   
+    }
+
 }

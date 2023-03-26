@@ -25,7 +25,7 @@
     font-size: 24px;
     line-height: 142.6%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     text-decoration-line: none;    
     color: #FF6060; 
     margin-right: 20px;
@@ -39,7 +39,7 @@ font-weight: 500;
 font-size: 24px;
 line-height: 142.6%;
 display: flex;
-align-items: flex-end;
+align-items: center;
 text-decoration-line: none;  
 color: #FF6060;
 
@@ -53,8 +53,17 @@ margin-left: 20px;
 }
 
 @media screen and (max-width: 768px) {
-    .kas-navbar{
-        font-size:12px;
+    .kas-navbar-link {
+        font-size:14px;
+        padding: 0;
     }
-
+    .kas-navbar-link2{
+        font-size: 14px;
+        margin: 0;
+    }
+    .kas-header{
+        justify-content: space-between;
+        padding-right: 0;
+    }
+   
 }

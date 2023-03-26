@@ -46,3 +46,36 @@
 #d:focus{
     opacity: 1;  
 }
+
+@media screen and (max-width:768px)  {
+    
+    .carousel-image-container{
+        height: 255px;
+    }
+
+    .carousel{
+        height: 255px;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+
+    .kas-flêche{
+        width: 20px;
+        height: 30px;       
+    }
+
+    #g{
+        top: 47%;
+        width: 20px;
+        height: 30px;
+    }
+
+    #d{
+        top: 47%;
+        margin-right: 10px;
+        width: 20px;
+        height: 30px;
+    }
+}

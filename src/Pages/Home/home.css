@@ -5,7 +5,8 @@
 .kas-titre{
     position: absolute;
     top: 100px;
-    left: 30%;
+    left: 20%;
+    width: auto;
     margin: 0;
     font-style: normal;
     font-weight: 500;
@@ -31,6 +32,11 @@
         width: 200px;
         left: 10%;
         font-size: 24px;
+        top: 45px;
+    }
+    .kas-img-banner{
+
+        height: 111px;
     }
 
 }
