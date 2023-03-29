@@ -1,5 +1,5 @@
 .kas-footer{
-    position: relative; 
+    position: relative;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -9,8 +9,7 @@
 
 .kas-footer-text{
     position: absolute;
-    top: 50%;
-
+    top: 60%;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;

@@ -15,6 +15,7 @@
     position: absolute;
     bottom: 20px;
     left: 50%;
+    transform: translateX(-50%);
     color: white;
     font-weight: 500;
     font-size: 18px;
@@ -77,5 +78,9 @@
         margin-right: 10px;
         width: 20px;
         height: 30px;
+    }
+
+    .kas-numero{
+        display: none;
     }
 }

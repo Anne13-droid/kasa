@@ -57,7 +57,7 @@ export default function Logement() {
                 </div>
                 <div className="kas-h2-container">
                     <div className="kas-title2">
-                        <h2 className="kas-h2">Descritpion </h2>
+                        <h2 className="kas-h2">Description </h2>
                         <Collapse
                             span={description}
                             className="kas-description"

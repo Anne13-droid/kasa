@@ -1,3 +1,7 @@
+.kas-logement{
+    padding-bottom: 50px;
+}
+
 h1{
     margin-bottom: 0;
     font-weight: 500;
@@ -88,7 +92,7 @@ li{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;   
 }
 
 
@@ -138,6 +142,7 @@ li{
     .kas-h2-container{
         flex-direction: column;
         width: 100%;
+       
     }
 
     .kas-etoile{

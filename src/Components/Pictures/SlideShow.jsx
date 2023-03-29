@@ -23,6 +23,7 @@ function SlideShow({ pictures }) {
                 />
                 <div className="kas-numero">
                     {indexImage + 1}/{pictures.length}
+                    {/* {pictures.length === 1 ? null : pictures.length} */}
                 </div>
 
                 <button onClick={incrementImage} id="d">
