@@ -21,23 +21,22 @@ function SlideShow({ pictures }) {
                     alt="images du logment"
                     className="carousel-image-container"
                 />
-                <div className="kas-numero">
+                <div className={pictures.length !== 1 ? "kas-numero" : "numero-invisble"}>
                     {indexImage + 1}/{pictures.length}
-                    {/* {pictures.length === 1 ? null : pictures.length} */}
+                   
                 </div>
-
-                <button onClick={incrementImage} id="d">
+                <button onClick={incrementImage}>
                     <img
                         src={ChevronD}
                         alt="flêche droite"
-                        className="kas-flêche"
+                        className={(pictures.length !== 1) ? "kas-flêche1" : "flêche-invisible"}
                     />
                 </button>
-                <button onClick={decrementImage} id="g">
+                <button onClick={decrementImage}>
                     <img
                         src={ChevronG}
                         alt="flêche gauche"
-                        className="kas-flêche"
+                        className={(pictures.length !== 1) ? "kas-flêche2" : "flêche-invisible"}
                     />
                 </button>
             </div>

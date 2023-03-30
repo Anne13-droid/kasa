@@ -21,7 +21,7 @@
     font-size: 18px;
 }
 
-#g{
+.kas-flêche2{
     width: 50px;
     position: absolute;
     top: 170px;
@@ -30,12 +30,12 @@
     border: none;
     opacity: 0.4;
 }
-#g:focus{
+.kas-flêche2:focus{
     opacity: 1;
     
 }
 
-#d{
+.kas-flêche1{
     position: absolute;
     top: 170px;
     right: 0;
@@ -44,8 +44,16 @@
     opacity: 0.4;
    
 }
-#d:focus{
+.kas-flêche1:focus{
     opacity: 1;  
+}
+
+.flêche-invisible{
+    display: none;
+}
+
+.numero-invisble{
+    display: none;
 }
 
 @media screen and (max-width:768px)  {
@@ -62,18 +70,18 @@
         font-size: 18px;
     }
 
-    .kas-flêche{
-        width: 20px;
-        height: 30px;       
-    }
 
-    #g{
+    .kas-flêche2{
+        width: 20px;
+        height: 30px;
         top: 47%;
         width: 20px;
         height: 30px;
     }
 
-    #d{
+    .kas-flêche1{
+        width: 20px;
+        height: 30px;
         top: 47%;
         margin-right: 10px;
         width: 20px;

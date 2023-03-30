@@ -27,9 +27,9 @@
 @media screen  and (max-width: 768px){
     .kas-titre{
         width: 200px;
-        left: 10%;
+        left: 35%;
         font-size: 24px;
-        top: 45px;
+        top: 50%;
     }
     .kas-img-banner{
 
