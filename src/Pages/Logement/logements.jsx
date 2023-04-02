@@ -46,7 +46,7 @@ export default function Logement() {
                             {host.name}
                             <img
                                 src={host.picture}
-                                alt="avatar"
+                                alt={host}
                                 className="kas-avatar"
                             />
                         </div>

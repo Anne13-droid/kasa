@@ -63,7 +63,7 @@ ul{
 }
 
 li{
-    list-style-type: none;
+    list-style-type: none;   
 }
 
 
@@ -99,8 +99,8 @@ li{
 .kas-par{
     font-weight: 400;
     font-size: 18px;
-    line-height: 142.6%;
     color: #FF6060;
+    padding: 0;
 }
 
 

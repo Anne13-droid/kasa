@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./card.css";
 
 export default function card({ id, cover, title }) {
-    console.log(id, title, cover);
 
     return (
         <Link to={"logements/" + id} className="kas-thumb">
