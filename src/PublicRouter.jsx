@@ -11,7 +11,8 @@ function PublicRouter() {
     <div className="App">
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
+          <Route index element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/apropos" element={<APropos />} />
           <Route path="/logements/:logementId" element={<Logements />} />
           <Route path="*" element={<NotFound />} />
