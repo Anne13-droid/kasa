@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function notFound() {
+function NotFound() {
   return (
     <div className="kas-page-error">
       <h1 className="kas-error">404</h1>
@@ -15,4 +15,4 @@ function notFound() {
   );
 }
 
-export default notFound;
+export default NotFound;

@@ -2,8 +2,8 @@ import "./style.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import APropos from "./Pages/Apropos/APropos";
-import NotFound from "./Pages/NotFound/notFound";
-import Logements from "./Pages/Logement/logements";
+import NotFound from "./Pages/NotFound/NotFound";
+import Logements from "./Pages/Logement/Logements";
 import Layout from "./Layout/Layout";
 
 function Router() {
