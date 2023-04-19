@@ -1,7 +1,18 @@
 import React from "react";
-import "./notFound.css";
-import NotFound from "../../Components/NotFound/NotFound";
+import { Link } from "react-router-dom";
 
-export default function Error() {
-    return <NotFound />;
+function notFound() {
+  return (
+    <div className="kas-page-error">
+      <h1 className="kas-error">404</h1>
+      <p className="kas-text-error">
+        Oups! La page que vous demandez n'existe pas
+      </p>
+      <Link to="/" className="kas-return">
+        Retourner sur la page d'accueil
+      </Link>
+    </div>
+  );
 }
+
+export default notFound;

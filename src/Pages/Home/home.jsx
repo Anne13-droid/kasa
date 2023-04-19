@@ -4,10 +4,10 @@ import Banner from "../../Components/Banner/Banner";
 import Gallery from "../../Components/Gallery/Gallery";
 
 export default function Home() {
-    return (
-        <div>
-            <Banner />
-            <Gallery />
-        </div>
-    );
+  return (
+    <div>
+      <Banner />
+      <Gallery />
+    </div>
+  );
 }

@@ -2,14 +2,14 @@ import React from "react";
 import image from "../../assets/img.png";
 import "../../Pages/Home/home.css";
 
-function banner() {
-    return (
-        <div className="kas-img-background">
-            <img src={image} alt="montagne" className="kas-img-banner" />
+function Banner() {
+  return (
+    <div className="kas-img-background">
+      <img src={image} alt="montagne" className="kas-img-banner" />
 
-            <h1 className="kas-titre">Chez vous, partout et ailleurs</h1>
-        </div>
-    );
+      <h1 className="kas-titre">Chez vous, partout et ailleurs</h1>
+    </div>
+  );
 }
 
-export default banner;
+export default Banner;
