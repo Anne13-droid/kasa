@@ -3,7 +3,7 @@ import image from "../../assets/imgabout.png";
 import Collapse from "../../Components/Collapse/Collapse";
 import "./APropos.css";
 
-export default function Apropos() {
+export default function APropos() {
   return (
     <div className="kas-apropos">
       <img src={image} alt="paysage" className="kas-img-banner2" />
