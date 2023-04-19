@@ -6,7 +6,7 @@ import NotFound from "./Pages/NotFound/NotFound";
 import Logements from "./Pages/Logement/Logements";
 import Layout from "./Layout/Layout";
 
-function Router() {
+function PublicRouter() {
   return (
     <div className="App">
       <Routes>
@@ -20,4 +20,4 @@ function Router() {
     </div>
   );
 }
-export default Router;
+export default PublicRouter;
